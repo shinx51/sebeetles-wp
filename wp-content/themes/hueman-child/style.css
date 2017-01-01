@@ -1,0 +1,420 @@
+/* 
+Theme Name: My Hueman Child Theme  
+Theme URI: http://sebeetles.com/ 
+Description: All the VW Beetle Special Editionsn 
+Author: Colin Shinkin
+Author URI:http://shinkindesign.com/
+Template: hueman
+Version: 1.0.0
+*/
+ 
+
+/* =Theme customization starts here
+
+------------------------------------------------------- */
+
+
+
+html {
+
+       overflow-y: scroll;
+
+	  
+
+}
+
+
+
+/*body { background: #eaeaea; font-size: 16px; line-height: 1.5em; color: #666; font-weight: 300; margin-top: 0; }
+
+
+
+
+
+/*p + p {
+
+  text-indent: 3em;
+
+  margin-top: 0 }*/
+
+
+
+.lastmodified {
+
+	font-size: 70%;
+
+	color: #666;
+
+}
+
+
+
+/*CSS for dropdown box*/
+
+select
+
+{
+
+width: 200px;
+
+border: 0px solid #CCC;
+
+font-weight: 200;
+
+font-size: 15px;
+
+font-family: Verdana;
+
+}
+
+select: hover
+
+{
+
+width: 200px;
+
+border: 0px solid #CCC;
+
+font-weight: 200;
+
+font-size: 15px;
+
+font-family: Verdana;
+
+}
+
+
+
+.credit {
+
+	font-size: 70%;
+
+}
+
+
+
+.category {
+
+	font-size: 90%;
+
+}
+
+
+
+.codes {
+
+	font-size: 70%;	
+
+}
+
+
+
+.single .post-thumbnail img {
+
+        display: none;
+
+}
+
+/*hides featured image in single post view*/
+
+
+
+.search .post-thumbnail img {
+
+        display: none;
+
+}
+
+/*hides featured image in search result view*/
+
+
+
+.category .post-thumbnail img {
+
+        display: none;
+
+}
+
+/*hides featured image in category view*/
+
+
+
+
+
+/* less padding category list */
+
+
+
+.widget_archive ul li, 
+
+.widget_categories ul li, 
+
+.widget_links ul li, 
+
+.widget_meta ul li, 
+
+.widget_recent_comments ul li, 
+
+.widget_recent_entries ul li,
+
+.widget_rss ul li,
+
+.widget_pages ul li a,
+
+.widget_nav_menu ul li a,
+
+.alx-tab li,
+
+.alx-posts li { padding: 3px 0; border-bottom: 1px dotted #999; }
+
+
+
+hr !important {
+
+    border : 0;
+
+    height : 1px;
+
+	border-style: dotted;
+	
+	border-color: #7f7f7f;
+
+       }
+
+
+
+.site-description {
+
+color: #fff;
+
+}
+
+/* Year */
+
+
+/* Target the menu item LI */
+
+.menu li.year{
+
+	background-color: #e6e7e8;
+
+	color: #CCC;
+
+}
+
+/* Target the menu item Anchor (link) */
+
+.menu li.year > a{
+
+  /* Colors, font sizes */
+
+}
+
+/* Home/Start */
+
+.home-start li.year{
+
+	color: #ccc;
+
+}
+
+
+
+/* font awesome */
+
+
+.widget_archive > ul > li a:before { content: "\f073"; } 
+
+
+
+.widget_categories > ul > li a:before { content: "\f07c"; }
+
+
+
+.widget_links > ul > li a:before { content: "\f08e"; }
+
+
+
+.widget_meta > ul > li a:before { content: "\f0da"; }
+
+
+
+.widget_recent_comments > ul > li:before { content: "\f075"; }
+
+
+
+.widget_recent_entries > ul > li a:before { content: "\f017"; }
+
+
+
+.widget_calendar caption:before { content: "\f073"; }
+
+
+
+/* list menu year icon */
+
+.widget_pages ul li a:before,
+
+
+
+.menu li.year a:before { content: ""; }
+
+
+
+/* list menu home/start icon */
+
+.widget_pages ul li a:before,
+
+.menu li.home-start a:before { content: "\f053"; }
+
+
+
+/* list menu text icon */
+
+.widget_pages ul li a:before,
+
+
+
+.widget_nav_menu ul li a:before { content: "\f05a"; }
+
+
+
+/* fixed height sidebar 1 
+
+.col-2cr .s1 { 
+
+float: left;
+
+margin-left: -340px;
+
+max-height:  1200px;
+
+overflow-y: auto;
+
+} */
+
+
+
+input
+
+{
+
+	background-color: #F4F4F4;
+
+	border: 1px dotted #7f7f7f;
+
+}
+
+
+iframe {
+
+    max-width: 100vw;
+
+    max-height: 100vw; /* height/width ratio = 315/560 = .5625 */
+	
+	border: 0;
+
+}
+
+.entry table td {
+
+    /*border-bottom: 1px dotted #939598;*/
+
+    text-align: left;
+
+    padding: 5px;
+
+    vertical-align: top;
+
+}
+
+
+tr:nth-child(2n) {
+
+             background-color: #e1f4fd !important;
+
+}
+
+.display-posts-listing li {
+
+border-bottom: 1px dotted #7f7f7f;
+
+}
+
+/*li {
+    font-family: inherit;
+	border-bottom: 1px dotted #bbb !important;
+}
+*/
+.goog-te-gadget-simple !important{
+    background-color: #fff;
+    border-left: 0px solid #d5d5d5;
+    border-top: 0px solid #9b9b9b;
+    border-bottom: 0px solid #e8e8e8;
+    border-right: 0px solid #d5d5d5;
+    font-size: 10pt;
+    display: inline-block;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    zoom: 1;
+}
+
+.goog-te-menu2 !important{
+
+	background-color: #F2F2F2;
+
+	text-decoration: none;
+
+	border: 0px dotted #6b90da;
+
+	overflow: hidden;
+
+	padding: 4px;
+
+}
+
+
+.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * !important {
+    font-family: Nunito, arial, sans-serif;
+    font-size: 10pt;
+}
+
+* {font-family:"Nunito", arial, sans-serif}
+
+.entry {
+	
+	font-family: Nunito, arial, sans-serif;
+    font-size: 18px;
+}
+
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input[type=email] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+	color: #fff;
+	font-weight: 600;
+    padding:8px 14px; 
+    background:#3b8dbd; 
+	margin-top:10px;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+}
